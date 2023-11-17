@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.min.css">
+  <script src="https://kit.fontawesome.com/0d6ca35ccf.js" crossorigin="anonymous"></script>
+  <title>Cofferoasters</title>
+</head>
+
+<body>
+  <header class="site_header">
+    <div class="container site_header__inner">
+      <a class="site_header__logo" href="./index.html">
+        <img src="./img/logo.svg" alt="Coffesto logo">
+      </a>
+      <nav class="site_header__nav navbar">
+        <ul class="navbar__list">
+          <li class="navbar__item"><a href="./index.html" class="navbar__link">HOME</a></li>
+          <li class="navbar__item"><a href="./about.html" class="navbar__link">ABOUT US</a></li>
+          <li class="navbar__item"><a href="./plan_maker.html" class="navbar__link">Create your plan</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="maker_hero">
+      <div class="container">
+        <div class="maker_hero__inner">
+          <h1>Create a plan</h1>
+          <p>Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees
+            from around the globe delivered fresh to your door.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="process">
+      <div class="container">
+        <div class="process__inner">
+          <div class="process__graph">
+            <div class="process__line"></div>
+            <span class="process__oval"></span>
+            <span class="process__oval"></span>
+            <span class="process__oval"></span>
+          </div>
+          <ul class="process__list list">
+            <li class="list__item">
+              <span>01</span>
+              <h3>Pick your coffee</h3>
+              <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair
+                prices for them. There are new coffees in all profiles every month for you to try out.</p>
+            </li>
+            <li class="list__item">
+              <span>02</span>
+              <h3>Choose the frequency</h3>
+              <p>Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel
+                your subscription with no commitment through our online portal.</p>
+            </li>
+            <li class="list__item">
+              <span>03</span>
+              <h3>Receive and enjoy!</h3>
+              <p>We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class
+                coffees curated to provide a distinct tasting experience.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="coffee_making">
+      <div class="container">
+        <div class="coffee_making__inner">
+          <ul class="coffee_making__menu_list menu">
+            <li class="menu__item actstep">
+              <a href="#pref">
+                <span>01</span>
+                <h4>Preferences</h4>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#bety">
+                <span>02</span>
+                <h4>Bean Type</h4>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#quantity">
+                <span>03</span>
+                <h4>Quantity</h4>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#gropt">
+                <span>04</span>
+                <h4>Grind option</h4>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#delivery">
+                <span>05</span>
+                <h4>Deliveries</h4>
+              </a>
+            </li>
+          </ul>
+          <div class="coffee_making__content_wrap">
+            <ul class="coffee_making__content_list content">
+              <li class="content__row">
+                <a href="#pref" class="content__title_item">
+                  <h2>How do you drink your coffee?</h2>
+                  <img class="img_rotating rotor" src="./img/arrow.svg" alt="arrow">
+                </a>
+                <form class="content__inner_list" id="pref">
+                  <input type="radio" name="coffee" id="one">
+                  <label class="content__inner_item" for="one">
+                    <h4>Capsule</h4>
+                    <p>Compatible with Nespresso systems and similar brewers</p>
+                  </label>
+                  <input type="radio" name="coffee" id="two">
+                  <label class="content__inner_item" for="two">
+                    <h4>Filter</h4>
+                    <p>For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                  </label>
+                  <input type="radio" name="coffee" id="three">
+                  <label class="content__inner_item" for="three">
+                    <h4>Espresso</h4>
+                    <p>Dense and finely ground beans for an intense, flavorful experience</p>
+                  </label>
+                </form>
+              </li>
+              <li class="content__row">
+                <a href="#bety" class="content__title_item">
+                  <h2>What type of coffee?</h2>
+                  <img class="img_rotating" src="./img/arrow.svg" alt="arrow">
+                </a>
+                <form class="content__inner_list" id="bety">
+                  <input type="radio" name="coffee" id="four">
+                  <label class="content__inner_item" for="four">
+                    <h4>Single Origin</h4>
+                    <p>Distinct, high quality coffee from a specific family-owned farm</p>
+                  </label>
+                  <input type="radio" name="coffee" id="five">
+                  <label class="content__inner_item" for="five">
+                    <h4>Decaf</h4>
+                    <p>Just like regular coffee, except the caffeine has been removed</p>
+                  </label>
+                  <input type="radio" name="coffee" id="six">
+                  <label class="content__inner_item" for="six">
+                    <h4>Blended</h4>
+                    <p>Combination of two or three dark roasted beans of organic coffees</p>
+                  </label>
+                </form>
+              </li>
+              <li class="content__row">
+                <a href="#quantity" class="content__title_item">
+                  <h2>How much would you like?</h2>
+                  <img class="img_rotating" src="./img/arrow.svg" alt="arrow">
+                </a>
+                <form class="content__inner_list" id="quantity">
+                  <input type="radio" name="coffee" id="ten">
+                  <label class="content__inner_item" for="ten">
+                    <h4>250g</h4>
+                    <p>Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                  </label>
+                  <input type="radio" name="coffee" id="eleven">
+                  <label class="content__inner_item" for="eleven">
+                    <h4>500g</h4>
+                    <p>Perfect option for a couple. Yields about 40 delectable cups.</p>
+                  </label>
+                  <input type="radio" name="coffee" id="twelf">
+                  <label class="content__inner_item" for="twelf">
+                    <h4>1000g</h4>
+                    <p>Perfect for offices and events. Yields about 90 delightful cups.</p>
+                  </label>
+                </form>
+              </li>
+              <li class="content__row">
+                <a href="#gropt" class="content__title_item">
+                  <h2>Want us to grind them?</h2>
+                  <div class="img_rotating">
+                    <i class="fa-sharp fa-solid fa-angle-right"></i>
+                  </div>
+                </a>
+                <form class="content__inner_list" id="gropt">
+                  <input type="radio" name="coffee" id="thirteen">
+                  <label class="content__inner_item" for="thirteen">
+                    <h4>Wholebean</h4>
+                    <p>Best choice if you cherish the full sensory experience</p>
+                  </label>
+                  <input type="radio" name="coffee" id="fourtheen">
+                  <label class="content__inner_item" for="fourtheen">
+                    <h4>Filter</h4>
+                    <p>For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                  </label>
+                  <input type="radio" name="coffee" id="fifthteen">
+                  <label class="content__inner_item" for="fifthteen">
+                    <h4>Cafetiére</h4>
+                    <p> Course ground beans specially suited for french press coffee</p>
+                  </label>
+                </form>
+              </li>
+              <li class="content__row">
+                <a href="#delivery" class="content__title_item">
+                  <h2>How often should we deliver?</h2>
+                  <img class="img_rotating" src="./img/arrow.svg" alt="arrow">
+                </a>
+                <form class="content__inner_list" id="delivery">
+                  <input type="radio" name="coffee" id="sixthteen">
+                  <label class="content__inner_item" for="sixthteen">
+                    <h4>Every week</h4>
+                    <p>$7.20 per shipment. Includes free first-class shipping.</p>
+                  </label>
+                  <input type="radio" name="coffee" id="seventeen">
+                  <label class="content__inner_item" for="seventeen">
+                    <h4>Every 2 weeks</h4>
+                    <p>$9.60 per shipment. Includes free priority shipping.</p>
+                  </label>
+                  <input type="radio" name="coffee" id="eighteen">
+                  <label class="content__inner_item" for="eighteen">
+                    <h4>Every month</h4>
+                    <p>$12.00 per shipment. Includes free priority shipping.</p>
+                  </label>
+                </form>
+              </li>
+            </ul>
+            <div class="coffee_making__order_sum order">
+              <div class="order__sum">
+                <p>Order Summary</p>
+                <span>“I drink my coffee as Filter, with a Decaf type of bean. 250g ground ala Cafetiare, sent to me
+                  Every Week.”</span>
+              </div>
+              <button type="submit" class="order__btn_link">Create your plan</button>
+            </div>
+          </div>
+          <div class="coffee_making__order_summary summary">
+            <div class="summary__title">
+              <h2>Order Summary</h2>
+            </div>
+            <div class="summary__content">
+              <div class="summary__OrSum">"I drink my coffee as <div class="summary__highlight">Filter</div>, with a
+                <div class="summary__highlight">Decaf</div> type of bean, <div class="summary__highlight">250g</div>
+                ground
+                ala <div class="summary__highlight">Cafetiare</div>, sent to me <div class="summary__highlight">Every
+                  Week</div>."
+              </div>
+              <span class="summary__informing">Is this correct? You can proceed to checkout or go back to plan
+                selection if something is off. Subscription discount codes can also be redeemed at the
+                checkout.</span>
+              <div class="summary__btnlink">
+                <div class="summary__price"> $14.00/mo </div>
+                <button type="submit" class="summary__btn-link">Checkout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site_footer">
+    <div class="container">
+      <div class="site_footer__inner">
+        <div class="site_footer__logo_wrap">
+          <a class="site_footer__logo" href="./index.html">
+            <img src="./img/foot_logo.svg" alt="Logo">
+          </a>
+          <ul class="navbar-list">
+            <li class="nav-item"><a href="./index.html" class="nav-link fo_ho">HOME</a></li>
+            <li class="nav-item"><a href="./about.html" class="nav-link fo_ho">ABOUT US</a></li>
+            <li class="nav-item"><a href="./plan_maker.html" class="nav-link fo_ho">Create your plan</a></li>
+          </ul>
+        </div>
+        <div class="icons">
+          <a href="https://www.facebook.com/" class="icon-link" target="_blank">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+          <a href="https://www.twitter.com/" class="icon-link" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/" class="icon-link" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
