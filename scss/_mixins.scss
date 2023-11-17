@@ -1,0 +1,71 @@
+@mixin link{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: $Gy;
+}
+@mixin dis-fle($a,$j) {
+  display: flex;
+  align-items: $a;
+  justify-content: $j;
+}
+@mixin h1($col:$BG) {
+  font-family: $Fs;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: $col;
+}
+@mixin h2($col:$BG,$alig:default) {
+  font-family: $Fs;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: $alig;
+  color: $col;
+}
+@mixin h3($col:$DGB) {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: $col;
+}
+@mixin h4($col:$BG) {
+  font-family: $Fs;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: $col;
+}
+@mixin Bar_text($col:$BG) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: $col;
+  mix-blend-mode: normal;
+  
+}
+@mixin btn_link($col:$BG) {
+  font-family: $Fs;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: $col;
+  background: $DC;
+  @include border(6px);
+}
+@mixin text($col:white) {
+  font-family: $Fs;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: $col;
+}
+@mixin border($a){
+  border-radius: $a;
+}

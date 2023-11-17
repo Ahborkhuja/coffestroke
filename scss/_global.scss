@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: $global_size;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: $most_use_ff;
+  background: $BG;
+}
+@media screen and (max-width: 930px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .container {
+    padding: 0 20px;
+  }
+}
